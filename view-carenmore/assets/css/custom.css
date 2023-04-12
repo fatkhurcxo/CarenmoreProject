@@ -1,0 +1,61 @@
+/*==================================================================================
+    Custom Stylesheet (Any custom styling you want to apply should be defined here).
+====================================================================================*/
+
+/* Background */
+.login-body {
+    background-image: url('../img/banner/milad-fakurian-dQDDMWgvotg-unsplash.jpg');
+    background-size: cover;
+}
+
+.img-shape-login {
+    background: url(../img/banner/login-bg.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.login-page-main {
+    border-radius: 20px;
+}
+
+/* Input Style */
+input::placeholder {
+    font-size: small;
+}
+
+#input-field {
+    font-size: small;
+}
+
+/* O-Style-Input */
+.o-style-input {
+    /* spacing */
+    margin-bottom: 2%;
+    /* end spacing */
+    border-bottom: 1px solid purple;
+    border-radius: 5px 5px 0px 0px;
+    background-color: transparent;
+    display: flex;
+    height: 45px;
+}
+
+.o-label {
+    flex-basis: 10%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: inherit;
+}
+
+.o-input {
+    height: inherit;
+    flex-basis: 90%;
+    border: none;
+    background-color: transparent;
+    font-size: small;
+}
+
+/* Section Style */
+.row-container {
+    height: max-content;
+}
